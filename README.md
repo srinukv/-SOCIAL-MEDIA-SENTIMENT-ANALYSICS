@@ -24,3 +24,54 @@
 - Prediction script for new posts
 
 ## 📁 Project Structure 
+
+social-sentiment-analysis/
+├── data/ # Raw & processed social media posts
+├── notebooks/ # EDA & experimentation
+├── src/
+│ ├── preprocess.py # Text cleaning/functions
+│ ├── train.py # Model training & evaluation
+│ └── predict.py # Load model & classify new text
+├── models/ # Saved model/tokenizer files
+├── requirements.txt # Dependencies
+└── README.md # You’re reading it!
+ Evaluation
+Evaluate model performance using:
+
+Accuracy
+
+Precision, Recall, F1-score
+
+Confusion Matrix
+
+Evaluate multiple models (Naive Bayes, SVM, Transformers) for comparisons.
+
+🔭 Future Work
+Fine-tune Transformers (e.g., BERT) for improved accuracy
+
+Add support for sarcasm, emojis, and slang
+
+Deploy as an API or web app for real-time sentiment analysis
+
+📚 References
+Sentiment Analysis EDA & pipeline (IMDb/GitHub example)
+
+README best practices for data science projects 
+kdnuggets.com
++6
+hackernoon.com
++6
+reddit.com
++6
+
+🤝 Contributing
+Contributions are welcome! Please:
+
+Fork the repository
+
+Work on a new branch
+
+Submit a Pull Request
+
+📝 License
+This project is licensed under the MIT License
